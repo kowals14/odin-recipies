@@ -1,0 +1,54 @@
+body {
+	margin: 0px auto;
+	font-family: Helvetica;
+	background-image: url('images/ramen.jpg');
+	background-size: cover;
+}
+
+.banner {
+	width: 100vw;
+	padding: 2px;
+}
+
+.header {
+	height: 15%;
+	background-color: orange;
+	text-align: center;
+}
+
+.footer {
+	height: 50px;
+	background-color: black;
+}
+
+.banner h1 {
+	color: white;
+}
+
+.menu {
+	width: 70%;
+	height: 100vh;
+	background-color: white;
+	margin-left: 15%;
+	padding: 50px;
+	text-align: center;
+}
+
+.menu ul {
+	margin: 0;
+	padding: 0;
+}
+
+.menu li {
+	border-radius: 15px;
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: hsl(11, 64%, 70%);
+	list-style: none;
+}
+
+.menu a {
+	color: white;
+	text-decoration: none;
+}
